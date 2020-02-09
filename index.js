@@ -29,3 +29,9 @@ function greet(time) {
 
 
 /* Write your implementation of displayMessage() */
+
+function displayMessage(msg) {
+  let message = document.getElementById("greeting");
+  message.innerText = msg;
+}
+
